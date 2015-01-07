@@ -363,10 +363,10 @@ this.isPlayerTurn = true;
 }, 
 showResult: function(isPlayerWin) { 
 if (isPlayerWin) { 
-$("#result_tips").html("干的漂亮，赢得胜利！"); 
+$("#result_tips").html("Awesome,you win!"); 
 } 
 else { 
-$("#result_tips").html("憾负对手，再接再厉!"); 
+$("#result_tips").html("Sorry,you lose!"); 
 } 
 this.isGameOver = true; 
 this.showWinChesses(isPlayerWin); 
@@ -949,14 +949,14 @@ return weight;
 </div> 
 <div class="operating-panel"> 
   
-<a id="black_btn" class="btn selected" href="#">黑子</a> 
-<a id="white_btn" class="btn" href="#">白子</a> 
+<a id="black_btn" class="btn selected" href="#">Black</a> 
+<a id="white_btn" class="btn" href="#">White</a> 
   
   
-<a id="first_move_btn" class="btn selected" href="#">先手</a> 
-<a id="second_move_btn" class="btn" href="#">后手</a> 
+<a id="first_move_btn" class="btn selected" href="#">Frist</a> 
+<a id="second_move_btn" class="btn" href="#">Last</a> 
   
-<a id="replay_btn" class="btn" href="#">请开始</a> 
+<a id="replay_btn" class="btn" href="#">Please</a> 
 <p id="result_info">win：100%  
 <p id="result_tips">  
 </div> 
